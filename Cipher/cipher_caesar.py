@@ -1,7 +1,9 @@
 # Caesar Cipher
 import pyperclip
 
-message = 'abcdef This is my secret message.'
+#message = 'abcdef This is my secret message.'
+#message = 'nopqrsJguv6Jv6Jz?J6rp5r7Jzr66ntrM'
+message = input('Enter: ')
 
 # encryption/decryption-key:
 key = 0
@@ -15,7 +17,10 @@ if (mode == 'd'):
     mode = 'decrypt'
 else:
     mode = 'encrypt'
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789 !?.'
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
+#SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789 \
+#    !?.`~@#$%^&*()_+-=[]{}|;:<>,/'
+
 translated = ''
 for symbol in message:
     if symbol in SYMBOLS:
