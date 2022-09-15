@@ -1,5 +1,6 @@
 # Caesar Cipher Hacker
-message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
+#message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
+message = input('Enter text: ')
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 for key in range(len(SYMBOLS)):
     translated = ''
