@@ -3,9 +3,6 @@
 #   import detect_english
 #   detect_english.is_english(some_string)
 
-from re import U
-
-
 UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
 
